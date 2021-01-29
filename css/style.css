@@ -1,0 +1,104 @@
+* {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    color: white;
+    width: 100%;
+    padding: 0;
+    background-color: #4D636F;
+}
+
+.navbar-toggler:hover {
+    background-color: white;
+}
+
+.navbar-toggler:hover {
+    background-color: white;
+}
+
+.navbar-toggler:hover i {
+    color: black;
+}
+
+.brand {
+    color: white;
+    background-color: #2d363b;
+}
+
+.brand:hover {
+    color: black;
+    background-color: gray;
+}
+
+.brand:hover i {
+    color: black;
+}
+
+.nav-item :hover {
+    background-color: white;
+}
+
+.nav-item :hover {
+    background-color: white;
+}
+
+li.nav-item :hover i {
+    color: black;
+}
+
+.navbar-text {
+    margin: 0;
+    padding: .9%;
+}
+
+.navbar-text:hover {
+    background-color: white;
+}
+
+#navbarText {
+    background-color: #4D636F;
+}
+
+a.dropdown-toggle::after {
+    display: none;
+    position: relative;
+}
+
+.badge {
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.section1 {
+    margin-left: 1.5%;
+    width: 25%;
+}
+
+.section2 {
+    margin-left: .7%;
+    width: 50.5%;
+}
+
+.section3 {
+    margin-left: .7%;
+    width: 20%;
+}
+
+@media (max-width: 600px) {
+    .section1,
+    .section2,
+    .section3 {
+        width: 100%;
+    }
+}
