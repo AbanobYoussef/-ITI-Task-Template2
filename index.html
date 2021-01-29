@@ -2,8 +2,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> ITI-Task-Template2</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -57,20 +58,170 @@
 
 
         <main>
-            <div class="row">
-                <div class="section1 " style="background-color: red;">
+            <div class="contain">
+                <div class="section1">
+                    <div class="card">
+                        <h4 class="w3-center">My Profile</h4>
+                        <div class="img">
+                            <img class="rounded-circle" src=" ./resources/avatar3.png " alt="Card image " style="width:100% ">
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="card-body">
+                            <p><i class="fa fa-pencil "></i> Designer, UI</p>
+                            <p><i class="fa fa-home "></i> London, UK</p>
+                            <p><i class="fa fa-birthday-cake "></i> April 1, 1988</p>
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- Accordion -->
+                    <div class=" Accordion">
+                        <button class="col-md-12" data-toggle="collapse" data-target="#demo"><i class="fa fa-circle-o-notch f"></i> My Groups</button>
+                        <div id="demo" class="collapse">
+                            <p>Some text..</p>
+                        </div>
+                        <button class="col-md-12" data-toggle="collapse" data-target="#demo2"><i class="fa fa-calendar-check-o "></i> My Events</button>
+                        <div id="demo2" class="collapse">
+                            <p>Some other text..</p>
+                        </div>
+                        <button class="col-md-12" data-toggle="collapse" data-target="#demo3"><i class="fa fa-users "></i> My Photos</button>
+                        <div id="demo3" class="collapse">
+                            <br>
+                            <div class="row">
+                                <div class="offset-md-1 col-md-5" style="margin-bottom: 3%;">
+                                    <img src="./resources/lights.jpg" style="width:100%" class="w3-margin-bottom">
+                                </div>
+                                <div class="col-md-5 ">
+                                    <img src="/resources/nature.jpg" style="width:100%" class="w3-margin-bottom">
+                                </div>
+                                <div class=" offset-md-1 col-md-5" style="margin-bottom: 3%;">
+                                    <img src="/resources/mountains.jpg" style="width:100%" class="w3-margin-bottom">
+                                </div>
+                                <div class="col-md-5 ">
+                                    <img src="/resources/forest.jpg" style="width:100%" class="w3-margin-bottom">
+                                </div>
+                                <div class=" offset-md-1 col-md-5" style="margin-bottom: 3%;">
+                                    <img src="/resources/nature.jpg" style="width:100%" class="w3-margin-bottom">
+                                </div>
+                                <div class="col-md-5 ">
+                                    <img src="/resources/snow.jpg " style="width:100% " class="w3-margin-bottom ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interests -->
+                    <div style="background-color: white; padding: 2%;  margin-top: 5%;">
+                        <div style="text-align: left; margin-bottom: 2%;">&nbsp;Interests</div>
+                        <div class="Con">
+                            <div style="background-color:#303E45 ;" class=" Bad">News</div>
+                            <div style="background-color:#303E45 ;" class=" Bad">W3Schools</div>
+                            <div style="background-color:#435761 ;" class=" Bad">Labels</div>
+                            <div style="background-color:#435761 ;" class=" Bad">Games</div>
+                            <div style="background-color:#435761 ;" class=" Bad">Friends</div>
+                            <div style="background-color:#435761 ;" class=" Bad">Games</div>
+                            <div style="background-color:#7D97A5 ;" class=" Bad">Friends</div>
+                            <div style="background-color :#7D97A5 ;" class=" Bad">Food</div>
+                            <div style="background-color:#BECBD2 ;" class=" Bad">Design</div>
+                            <div style="background-color:#DFE5E8 ;" class=" Bad">Art</div>
+                            <div style="background-color:white ;" class=" Bad">Photos</div>
+
+                        </div>
+                    </div>
+                    <!-- Alert Box -->
+                    <div class="alert alert-dark" id="alert" role="alert">
+                        <span id="close"><i class="fa fa-remove"></i></span>
+                        <p><strong>Hey!</strong></p>
+                        <p>People are looking at your profile. Find out who.</p>
+                    </div>
+                    <script>
+                        document.getElementById('close').onclick = function() {
+
+                            document.getElementById('alert').style.display = 'none';
+                        }
+                    </script>
+                    <!-- End Left Column -->
+                </div>
 
 
 
 
 
 
+                <div class="section2 ">
+                    <div class="w3-container ">
+                        <h6 class="w3-opacity">Social Media template by w3.css</h6>
+                        <input type="text" class="Input" placeholder="Status: Feeling Blue">
+                        <button type="button" class="w3-button"><i class="fa fa-pencil"></i> &nbsp;Post</button>
+                    </div>
 
 
+
+                    <div class="post"><br>
+                        <img src="/resources/avatar2.png" alt="Avatar" class="rounded-circle" style="width:60px">
+                        <span class="min">1 min</span>
+                        <span class="name">John Doe</span><br>
+                        <hr class="w3-clear">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="/resources/lights.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="/resources/nature.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom">
+                            </div>
+                        </div><br>
+                        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i> &nbsp;Like</button>
+                        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i> &nbsp;Comment</button>
+                    </div>
+
+
+
+                    <div class="post"><br>
+                        <img src="/resources/avatar5.png" alt="Avatar" class="rounded-circle" style="width:60px">
+                        <span class="min">1 min</span>
+                        <span class="name">Jane Doe</span><br>
+                        <hr class="w3-clear">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i> &nbsp;Like</button>
+                        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i> &nbsp;Comment</button>
+                    </div>
+
+
+
+                    <div class="post"><br>
+                        <img src="/resources/avatar2.png" alt="Avatar" class="rounded-circle" style="width:60px">
+                        <span class="min">32 min</span>
+                        <span class="name">John Doe</span><br>
+                        <hr class="w3-clear">
+                        <p>Have you seen this?</p>
+                        <div class="col-md-6">
+                            <img src="/resources/lights.jpg" alt="Northern Lights" class="w3-margin-bottom">
+                        </div>
+                        <br>
+                        <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i> &nbsp;Like</button>
+                        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i> &nbsp;Comment</button>
+                    </div>
 
                 </div>
-                <div class="section2 " style="background-color: black;">hekko</div>
-                <div class="section3 " style="background-color: red;">hekko</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="section3 " style="background-color: red; ">hekko</div>
             </div>
         </main>
     </div>
@@ -79,13 +230,13 @@
 
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
 
     <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
 </body>
 
 </html>
